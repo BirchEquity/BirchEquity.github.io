@@ -24,14 +24,19 @@ header {
 .header-content {
     max-width: 960px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-header h1 {
-    font-size: 2em;
+.logo {
+    font-size: 1.5em;
 }
 
 nav ul {
     list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul li {
@@ -66,6 +71,7 @@ main {
     border-bottom: 1px solid #ddd;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .report-info {
