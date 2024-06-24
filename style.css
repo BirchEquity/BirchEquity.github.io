@@ -21,30 +21,26 @@ header {
     text-align: center;
 }
 
-.header-content {
-    max-width: 960px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.site-title {
+    font-size: 2em;
+    margin-bottom: 10px; /* Add margin to separate title from buttons */
 }
 
-.logo {
-    font-size: 1.5em;
+.main-nav {
+    margin-bottom: 20px; /* Add space below the navigation */
 }
 
-nav ul {
+.main-nav ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    display: flex;
+    justify-content: center; /* Center the navigation horizontally */
 }
 
-nav ul li {
-    display: inline;
+.main-nav ul li {
     margin: 0 10px;
 }
 
-nav ul li a {
+.main-nav ul li a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
@@ -71,7 +67,6 @@ main {
     border-bottom: 1px solid #ddd;
     display: flex;
     justify-content: space-between;
-    align-items: center;
 }
 
 .report-info {
