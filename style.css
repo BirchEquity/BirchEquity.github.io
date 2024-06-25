@@ -34,6 +34,7 @@ header {
     list-style-type: none;
     display: flex;
     justify-content: center; /* Center the navigation horizontally */
+    padding: 0;
 }
 
 .main-nav ul li {
